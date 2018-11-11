@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e44ee00-586d-487d-ba5a-a6183e6b2e2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/hotpot/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/hotpot/routine/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/hotpot/routine/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/hotpot/routine/initializer.py" afterDir="false" />
-    </list>
+    <list default="true" id="8e44ee00-586d-487d-ba5a-a6183e6b2e2d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,10 +222,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="804" y="23" width="1756" height="1019" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18494749" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18494749" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
@@ -253,7 +246,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" id="Python Console" order="8" visible="true" weight="0.39731622" />
+      <window_info active="true" anchor="right" id="Python Console" order="8" visible="true" weight="0.39731622" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
