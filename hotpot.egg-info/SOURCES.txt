@@ -1,0 +1,7 @@
+README.md
+setup.py
+hotpot.egg-info/PKG-INFO
+hotpot.egg-info/SOURCES.txt
+hotpot.egg-info/dependency_links.txt
+hotpot.egg-info/requires.txt
+hotpot.egg-info/top_level.txt
