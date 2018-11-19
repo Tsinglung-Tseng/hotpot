@@ -1,4 +1,5 @@
 README.md
+setup.py
 src/python/hotpot/__init__.py
 src/python/hotpot.egg-info/PKG-INFO
 src/python/hotpot.egg-info/SOURCES.txt

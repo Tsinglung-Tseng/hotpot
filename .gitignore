@@ -1,2 +1,4 @@
 /.idea
 /hotpot.egg-info
+/build
+/dist

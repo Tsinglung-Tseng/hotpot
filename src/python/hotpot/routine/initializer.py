@@ -1,6 +1,6 @@
 from jfs.api import Path, File, mkdir, mv, cp, rm
-from .base import Directory
-from pygate.routine.base import Operation, OperationOnFile, OperationOnSubdirectories, OpeartionWithShellCall, RoutineOnDirectory
+from .base import Directory, OperationOnSubdirectories
+from pygate.routine.base import Operation, OperationOnFile, OpeartionWithShellCall, RoutineOnDirectory
 from typing import Iterable
 import subprocess
 
@@ -35,16 +35,3 @@ class OpCmdOnSubdir(OperationOnSubdirectories):
 
     def apply(self, r: RoutineOnDirectory):
         return self.subdirectories(r).to_list().to_blocking().first()
-
-
-if __name__=="__main__":
-    d = Directory('/Users/tsinglung/subdir.test')
-    o = OpSubdirectoriesMaker(11)
-    r = RoutineOnDirectory(d, [o], dryrun=False)
-    # o.apply(r)
-    # r.work()
-
-    cosd = OpCmdOnSubdir(patterns=["sub.{}"], command=["python", "init", "subdir", "-n", "10"])
-    r = RoutineOnDirectory(d, [cosd], dryrun=False)
-
-
