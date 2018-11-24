@@ -5,6 +5,7 @@ import os
 import shutil
 import pathlib
 import subprocess
+import time
 
 
 class KEYS:
@@ -27,18 +28,18 @@ class KEYS:
 
 FILE = tables.open_file(KEYS.PHANTON_SOURCE_DIR)
 
-for INDEX in range(10, 200):
+for INDEX in range(200, 300):
     derenzo, gray_scale = FILE.root.derenzo[INDEX]
 
     a = [0, gray_scale[0], gray_scale[1]]
     b = [0, gray_scale[0], gray_scale[1]]
-    c = ['Air', 'Water', 'Air']
+    c = ['Air', 'Air', 'Air']
 
     range_material_phantomD1 = DataFrame([str(3)])
     range_material_phantomD2 = DataFrame([a, b, c]).T
-    activity_range_phantomD = DataFrame([[2, gray_scale[0], gray_scale[1]],
-                                         [np.nan, gray_scale[0], gray_scale[1]],
-                                         [np.nan, int(10 * gray_scale[0]), int(10 * gray_scale[1])]]).T
+    activity_range_phantomD = DataFrame([["3", 0.0, gray_scale[0], gray_scale[1]],
+                                         [np.nan, 0.0, gray_scale[0], gray_scale[1]],
+                                         [np.nan, 0.0, int(10 * gray_scale[0]), int(10 * gray_scale[1])]]).T
 
     # workdir (/mnt/gluster/qinglong/DLSimu/derenzo_phantom_*)
     task_workdir = KEYS.WORKDIR / KEYS.PHANTOM_SUB_DIR(INDEX)
@@ -90,9 +91,11 @@ for INDEX in range(10, 200):
         for p in to_copy:
             shutil.copyfile(p, (mac_sub_dir / p.name))
 
-    # run
-    for i in range(1, 5):
+            # run
+    for i in range(1, 4):
         mac_sub_dir = task_workdir / f'mac_sub{i}'
         subprocess.run(["pygate", "init", "subdir", "-n", "100"], cwd=str(mac_sub_dir))
         subprocess.run(["pygate", "init", "bcast"], cwd=str(mac_sub_dir))
         subprocess.run(["pygate", "submit"], cwd=str(mac_sub_dir))
+
+    time.sleep(10)
