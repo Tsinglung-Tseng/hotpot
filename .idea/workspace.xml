@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e44ee00-586d-487d-ba5a-a6183e6b2e2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/python/hotpot/routine/subprocess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/hotpot/simulation/sinogramSR.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/hotpot/simulation/taskLauncher.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/simulation/simu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/hotpot.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/hotpot/simulation/sinogramSR.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/simulation/sinogramSR.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,14 +41,14 @@
         <counts>
           <entry key="dummy" value="33" />
           <entry key="initializer" value="278" />
-          <entry key="py" value="1138" />
-          <entry key="txt" value="64" />
+          <entry key="py" value="1141" />
+          <entry key="txt" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="97" />
-          <entry key="Python" value="1416" />
+          <entry key="PLAIN_TEXT" value="120" />
+          <entry key="Python" value="1419" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -71,11 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/sinogramSR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -238,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542626261605</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add sinogram resize">
+      <created>1543053875839</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543053875839</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -279,7 +281,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add new feature about simu and recon" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new feature about simu and recon" />
+    <MESSAGE value="add sinogram resize" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sinogram resize" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/python/__init__.py" />
@@ -344,11 +347,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/sinogramSR.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>

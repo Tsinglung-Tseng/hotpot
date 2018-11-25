@@ -1,8 +1,5 @@
-import pandas as pd
 import numpy as np
-import pathlib
-import matplotlib.pyplot as plt
-from collections import Counter, abc
+from collections import Counter
 
 
 def ring_(NUM_RINGS=10):

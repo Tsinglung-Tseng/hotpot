@@ -10,3 +10,8 @@ src/python/hotpot.egg-info/top_level.txt
 src/python/hotpot/routine/__init__.py
 src/python/hotpot/routine/base.py
 src/python/hotpot/routine/initializer.py
+src/python/hotpot/routine/subprocess.py
+src/python/hotpot/simulation/__init__.py
+src/python/hotpot/simulation/bin2listmode.py
+src/python/hotpot/simulation/sinogramSR.py
+src/python/hotpot/simulation/taskLauncher.py
