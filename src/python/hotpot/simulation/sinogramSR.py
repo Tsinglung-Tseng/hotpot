@@ -1,5 +1,8 @@
 import numpy as np
 from collections import Counter
+import subprocess
+import shutil
+import pathlib
 
 
 def ring_(NUM_RINGS=10):
@@ -134,3 +137,30 @@ def x2TOx4(SR_x2):
     SR_x4 = singram_resize(SR_x2_marked, SR_x4_marked)
 
     return SR_x4
+
+
+def x1_to_x4(work_dir):
+    S = np.fromfile(str(work_dir/'sinogram.s'), dtype=np.float32)
+    SR = S.reshape(100, 80, 80)
+
+    SR_x1TOx4 = x1TOx4(SR)
+    (np.array(list(SR_x1TOx4.values()), dtype=np.float32)).tofile(str(work_dir/'sinogram_x1TOx4.s'))
+
+
+def x2_to_x4(work_dir):
+    S = np.fromfile(str(work_dir/'sinogram.s'), dtype=np.float32)
+    SR_x2 = S.reshape(400, 160, 160)
+
+    SR_x2TOx4 = x2TOx4(SR_x2)
+    (np.array(list(SR_x2TOx4.values()), dtype=np.float32)).tofile(str(work_dir/'sinogram_x2TOx4.s'))
+
+
+def run_recon(sub_workdir):
+    print("    Run root2bin")
+    subprocess.run(["bash", "root2bintxt.sh"], cwd=str(sub_workdir))
+
+    print("    Run txt2h5")
+    subprocess.run(["python", "txt2h5.py"], cwd=str(sub_workdir))
+
+    print("    Run run_stir")
+    subprocess.run(["bash", "run_stir.sh"], cwd=str(sub_workdir))

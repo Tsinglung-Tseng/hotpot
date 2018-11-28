@@ -1,6 +1,7 @@
 import pathlib
+import shutil
 from pathlib import Path
-from typing import Iterable, Dict
+from typing import Iterable, Dict, List
 
 
 def phantom_sub_dir(i):
@@ -12,17 +13,53 @@ def scale_sub_dir(i, j):
     return phantom_sub_dir(i)/f"mac_sub{j}"
 
 
-def get_not_done(check_range: Iterable[int]) -> Dict:
-    root_not_done = []
-    sinogram_not_done = []
+def recon_depends(sub_id):
+    return pathlib.Path(f'/mnt/gluster/qinglong/recon/x{sub_id}')
 
-    for i in check_range:
-        for j in range(1, 4):
-            if not Path.is_file(scale_sub_dir(i, j) / "result.root"):
-                root_not_done.append(scale_sub_dir(i, j))
 
-            if not Path.is_file(scale_sub_dir(i, j) / "sinogram.s"):
-                sinogram_not_done.append(str(scale_sub_dir(i, j)))
+def get_not_done(dir_to_check: Iterable[Path]) -> Dict:
+    root = []
+    sinogram = []
 
-    return {"root_not_done": root_not_done,
-            "sinogram_not_done": sinogram_not_done}
+    for d in dir_to_check:
+        if not Path.is_file(d/"result.root"):
+            root.append(d)
+
+        if not Path.is_file(d/"sinogram.s"):
+            sinogram.append(d)
+
+    return {"root": root,
+            "sinogram": sinogram}
+
+
+def get_done(dir_to_check: Iterable[Path]) -> Dict:
+    root = []
+    sinogram = []
+
+    for d in dir_to_check:
+        if Path.is_file(d/"result.root"):
+            root.append(d)
+
+        if Path.is_file(d/"sinogram.s"):
+            sinogram.append(d)
+
+    return {"root": root,
+            "sinogram": sinogram}
+
+
+def get_all_workdirs(phantom_range: Iterable[int], sub_range: Iterable[int]) -> List:
+    all_dir = []
+
+    for i in phantom_range:
+        for j in sub_range:
+            if Path.is_dir(scale_sub_dir(i, j)):
+                all_dir.append(scale_sub_dir(i, j))
+
+    return all_dir
+
+
+def load_recon_depends(work_dir: Path):
+    sub_id = int(work_dir.name[-1])
+    print(f"    loading recon dependencies from x{sub_id}, at {recon_depends(sub_id)}")
+    for p in (recon_depends(sub_id)).iterdir():
+        shutil.copyfile(p, work_dir/p.name)
