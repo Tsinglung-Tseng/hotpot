@@ -18,6 +18,10 @@ def recon_depends(sub_id):
     return pathlib.Path(f'/mnt/gluster/qinglong/recon/x{sub_id}')
 
 
+def simu_depends(sub_id):
+    return pathlib.Path(f'/mnt/gluster/qinglong/macset/mac_sub{sub_id}')
+
+
 def get_not_done(dir_to_check: Iterable[Path]) -> Dict:
     root = []
     sinogram = []
@@ -68,8 +72,8 @@ def load_recon_depends(work_dir: Path):
 
 def load_simu_depends(work_dir: Path):
     sub_id = int(work_dir.name[-1])
-    print(f"loading simulation dependencies from mac_sub{sub_id}, at {recon_depends(sub_id)}")
-    for p in (recon_depends(sub_id)).iterdir():
+    print(f"loading simulation dependencies from mac_sub{sub_id}, at {simu_depends(sub_id)}")
+    for p in (simu_depends(sub_id)).iterdir():
         shutil.copyfile(p, work_dir/p.name)
 
 

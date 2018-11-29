@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e44ee00-586d-487d-ba5a-a6183e6b2e2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/python/hotpot/simulation/generator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/python/hotpot/filesystem/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/filesystem/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/simulation/tosinogram.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/hotpot/simulation/generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/simulation/generator.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,12 +20,12 @@
     <session id="-896808618">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.0" value="4" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -50,14 +49,14 @@
           <entry key="dummy" value="37" />
           <entry key="gitignore" value="3" />
           <entry key="initializer" value="278" />
-          <entry key="py" value="2903" />
+          <entry key="py" value="3097" />
           <entry key="txt" value="190" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="230" />
-          <entry key="Python" value="3181" />
+          <entry key="Python" value="3375" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -65,15 +64,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/python/hotpot/superesolution/util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
+            <state relative-caret-position="165">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#1#107#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -81,13 +77,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/python/hotpot/filesystem/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="787">
-              <caret line="80" column="46" lean-forward="true" selection-start-line="80" selection-start-column="46" selection-end-line="80" selection-end-column="46" />
+            <state relative-caret-position="648">
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <marker date="1543467528019" expanded="true" signature="1044:1045" ph="..." />
-                <marker date="1543467528019" expanded="true" signature="1148:1149" ph="..." />
-                <marker date="1543467528019" expanded="true" signature="1875:1876" ph="..." />
+                <marker date="1543474996537" expanded="true" signature="424:500" ph="..." />
+                <marker date="1543474996537" expanded="true" signature="1145:1146" ph="..." />
+                <marker date="1543474996537" expanded="true" signature="1249:1250" ph="..." />
+                <marker date="1543474996537" expanded="true" signature="1974:1975" ph="..." />
               </folding>
             </state>
           </provider>
@@ -96,7 +93,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/sinogramSR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
+            <state relative-caret-position="737">
               <caret line="163" selection-start-line="163" selection-end-line="163" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -108,12 +105,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="825">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1543467528010" expanded="true" signature="358:363" ph="..." />
-                <marker date="1543467528010" expanded="true" signature="874:1330" ph="..." />
+                <marker date="1543481694478" expanded="true" signature="466:471" ph="..." />
               </folding>
             </state>
           </provider>
@@ -131,6 +127,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>tofile</find>
+      <find>recon_depends</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -159,8 +156,8 @@
         <option value="$PROJECT_DIR$/src/python/hotpot/superesolution/util.py" />
         <option value="$PROJECT_DIR$/src/python/hotpot/simulation/sinogramSR.py" />
         <option value="$PROJECT_DIR$/src/python/hotpot/simulation/tosinogram.py" />
-        <option value="$PROJECT_DIR$/src/python/hotpot/simulation/generator.py" />
         <option value="$PROJECT_DIR$/src/python/hotpot/filesystem/base.py" />
+        <option value="$PROJECT_DIR$/src/python/hotpot/simulation/generator.py" />
       </list>
     </option>
   </component>
@@ -357,18 +354,23 @@
       <option name="project" value="LOCAL" />
       <updated>1543395146531</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="refactor to sinogram and sinogram scale">
+      <created>1543468890755</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1543468890755</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1260" height="1018" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994463" visible="true" weight="0.22085387" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994463" visible="true" weight="0.22413793" />
       <window_info id="Structure" order="1" sideWeight="0.5005537" side_tool="true" weight="0.22085387" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="REST Client" weight="0.33444077" />
-      <window_info anchor="bottom" id="File Transfer" sideWeight="0.49964812" weight="0.32890365" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
@@ -381,7 +383,8 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" x="0" y="0" width="315" height="818" id="Documentation" side_tool="true" weight="0.32934552" />
+      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.49964812" weight="0.32890365" />
+      <window_info anchor="bottom" id="REST Client" order="13" weight="0.33444077" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Remote Host" order="1" />
       <window_info anchor="right" id="R Packages" order="2" />
@@ -390,7 +393,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" id="Python Console" order="8" weight="0.4398311" />
+      <window_info anchor="right" id="Python Console" order="8" weight="0.43924466" />
+      <window_info anchor="right" x="0" y="0" width="315" height="818" id="Documentation" order="9" side_tool="true" weight="0.32922825" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +516,6 @@
           <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
-            <marker date="1543386176401" expanded="true" signature="156:157" ph="..." />
           </folding>
         </state>
       </provider>
@@ -528,29 +531,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/tosinogram.py" />
     <entry file="file://$PROJECT_DIR$/src/python/hotpot/superesolution/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="165">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#1#107#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/tosinogram.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-end-line="76" selection-end-column="80" />
+        <state relative-caret-position="825">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1543481694478" expanded="true" signature="466:471" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/sinogramSR.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
+        <state relative-caret-position="737">
           <caret line="163" selection-start-line="163" selection-end-line="163" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -558,27 +560,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1543467528010" expanded="true" signature="358:363" ph="..." />
-            <marker date="1543467528010" expanded="true" signature="874:1330" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/python/hotpot/filesystem/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="787">
-          <caret line="80" column="46" lean-forward="true" selection-start-line="80" selection-start-column="46" selection-end-line="80" selection-end-column="46" />
+        <state relative-caret-position="648">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1543467528019" expanded="true" signature="1044:1045" ph="..." />
-            <marker date="1543467528019" expanded="true" signature="1148:1149" ph="..." />
-            <marker date="1543467528019" expanded="true" signature="1875:1876" ph="..." />
+            <marker date="1543474996537" expanded="true" signature="424:500" ph="..." />
+            <marker date="1543474996537" expanded="true" signature="1145:1146" ph="..." />
+            <marker date="1543474996537" expanded="true" signature="1249:1250" ph="..." />
+            <marker date="1543474996537" expanded="true" signature="1974:1975" ph="..." />
           </folding>
         </state>
       </provider>
