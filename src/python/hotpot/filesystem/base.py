@@ -1,3 +1,4 @@
+import os
 import pathlib
 import shutil
 from pathlib import Path
@@ -60,6 +61,21 @@ def get_all_workdirs(phantom_range: Iterable[int], sub_range: Iterable[int]) -> 
 
 def load_recon_depends(work_dir: Path):
     sub_id = int(work_dir.name[-1])
-    print(f"    loading recon dependencies from x{sub_id}, at {recon_depends(sub_id)}")
+    print(f"loading recon dependencies from x{sub_id}, at {recon_depends(sub_id)}")
     for p in (recon_depends(sub_id)).iterdir():
         shutil.copyfile(p, work_dir/p.name)
+
+
+def load_simu_depends(work_dir: Path):
+    sub_id = int(work_dir.name[-1])
+    print(f"loading simulation dependencies from mac_sub{sub_id}, at {recon_depends(sub_id)}")
+    for p in (recon_depends(sub_id)).iterdir():
+        shutil.copyfile(p, work_dir/p.name)
+
+
+def make_dir(work_dir: Path):
+    try:
+        os.makedirs(work_dir)
+        print(f"Directory {work_dir} added.")
+    except FileExistsError:
+        print(f"Directory {work_dir} exists.")
