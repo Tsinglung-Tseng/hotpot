@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e44ee00-586d-487d-ba5a-a6183e6b2e2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/python/hotpot/simulation/system/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python/hotpot/simulation/system/recon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python/hotpot/simulation/system/systemMatrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python/hotpot/superesolution/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python/hotpot/superesolution/train/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python/hotpot/superesolution/train/x2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/python/hotpot/filesystem/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/filesystem/base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/python/hotpot/simulation/generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/simulation/generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/hotpot/superesolution/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/superesolution/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/hotpot/superesolution/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/superesolution/data/util.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +41,7 @@
           <entry key="PKG-INFO" value="1" />
           <entry key="gitignore" value="2" />
           <entry key="http" value="1" />
-          <entry key="py" value="46" />
+          <entry key="py" value="70" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
@@ -41,7 +49,7 @@
         <counts>
           <entry key="HTTP Request" value="1" />
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="46" />
+          <entry key="Python" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -49,14 +57,14 @@
           <entry key="dummy" value="37" />
           <entry key="gitignore" value="3" />
           <entry key="initializer" value="278" />
-          <entry key="py" value="3097" />
+          <entry key="py" value="3419" />
           <entry key="txt" value="190" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="230" />
-          <entry key="Python" value="3375" />
+          <entry key="Python" value="3697" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -66,10 +74,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/python/hotpot/superesolution/util.py">
+        <entry file="file://$PROJECT_DIR$/src/python/hotpot/filesystem/taskguard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,39 +88,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/python/hotpot/filesystem/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="-389">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="19" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <marker date="1543474996537" expanded="true" signature="424:500" ph="..." />
-                <marker date="1543474996537" expanded="true" signature="1145:1146" ph="..." />
-                <marker date="1543474996537" expanded="true" signature="1249:1250" ph="..." />
-                <marker date="1543474996537" expanded="true" signature="1974:1975" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/sinogramSR.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="737">
-              <caret line="163" selection-start-line="163" selection-end-line="163" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/generator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <marker date="1543481694478" expanded="true" signature="466:471" ph="..." />
+                <marker date="1543803175037" expanded="true" signature="461:537" ph="..." />
+                <marker date="1543803175037" expanded="true" signature="1182:1183" ph="..." />
+                <marker date="1543803175037" expanded="true" signature="1292:1293" ph="..." />
+                <marker date="1543803175037" expanded="true" signature="2029:2030" ph="..." />
               </folding>
             </state>
           </provider>
@@ -150,14 +136,18 @@
         <option value="$PROJECT_DIR$/src/python/hotpot/phantom/bash.py" />
         <option value="$PROJECT_DIR$/src/python/hotpot/phantom/config.py" />
         <option value="$PROJECT_DIR$/src/python/hotpot/phantom/base.py" />
-        <option value="$PROJECT_DIR$/src/python/hotpot/superesolution/config.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/python/hotpot/filesystem/taskguard.py" />
-        <option value="$PROJECT_DIR$/src/python/hotpot/superesolution/util.py" />
         <option value="$PROJECT_DIR$/src/python/hotpot/simulation/sinogramSR.py" />
         <option value="$PROJECT_DIR$/src/python/hotpot/simulation/tosinogram.py" />
-        <option value="$PROJECT_DIR$/src/python/hotpot/filesystem/base.py" />
+        <option value="$PROJECT_DIR$/src/python/hotpot/superesolution/config.py" />
+        <option value="$PROJECT_DIR$/src/python/hotpot/superesolution/util.py" />
         <option value="$PROJECT_DIR$/src/python/hotpot/simulation/generator.py" />
+        <option value="$PROJECT_DIR$/src/python/hotpot/filesystem/base.py" />
+        <option value="$PROJECT_DIR$/src/python/hotpot/simulation/system/systemMatrix.py" />
+        <option value="$PROJECT_DIR$/src/python/hotpot/simulation/system/recon.py" />
+        <option value="$PROJECT_DIR$/src/python/hotpot/superesolution/data/util.py" />
+        <option value="$PROJECT_DIR$/src/python/hotpot/superesolution/train/x2.py" />
       </list>
     </option>
   </component>
@@ -168,6 +158,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-12" />
     <option name="y" value="23" />
     <option name="width" value="1260" />
     <option name="height" value="1018" />
@@ -216,7 +207,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
               <item name="hotpot" type="462c0819:PsiDirectoryNode" />
-              <item name="simulation" type="462c0819:PsiDirectoryNode" />
+              <item name="phantom" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hotpot" type="b2602c69:ProjectViewProjectNode" />
@@ -225,6 +216,24 @@
               <item name="python" type="462c0819:PsiDirectoryNode" />
               <item name="hotpot" type="462c0819:PsiDirectoryNode" />
               <item name="superesolution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotpot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotpot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="hotpot" type="462c0819:PsiDirectoryNode" />
+              <item name="superesolution" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotpot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotpot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="hotpot" type="462c0819:PsiDirectoryNode" />
+              <item name="superesolution" type="462c0819:PsiDirectoryNode" />
+              <item name="train" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -242,6 +251,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/python/hotpot/superesolution/data" />
       <recent name="$PROJECT_DIR$/src/python/hotpot/simulation" />
     </key>
   </component>
@@ -361,14 +371,21 @@
       <option name="project" value="LOCAL" />
       <updated>1543468890755</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refactor to sinogram and sinogram scale">
+      <created>1543494182347</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1543494182347</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1260" height="1018" extended-state="0" />
+    <frame x="-12" y="23" width="1260" height="1018" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994463" visible="true" weight="0.22413793" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994463" visible="true" weight="0.22413793" />
       <window_info id="Structure" order="1" sideWeight="0.5005537" side_tool="true" weight="0.22085387" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -436,13 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/routine/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="49" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/python/hotpot/routine/subprocess.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -465,17 +475,85 @@
     <entry file="file://$PROJECT_DIR$/src/python/hotpot.egg-info/top_level.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/tosinogram.py" />
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/bin2listmode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/taskLauncher.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
+        <state relative-caret-position="-719">
           <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/bin2listmode.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/system/systemMatrix.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="402">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/system/recon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/sinogramSR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1932">
+          <caret line="131" column="51" lean-forward="true" selection-start-line="131" selection-start-column="51" selection-end-line="131" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/phantom/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="40" selection-end-line="24" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/superesolution/train/x2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1214">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#79#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -490,86 +568,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/phantom/base.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/superesolution/data/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="2070">
+          <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#106#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/routine/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/filesystem/taskguard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/python/hotpot/superesolution/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding>
-            <marker date="1543324804427" expanded="true" signature="236:237" ph="..." />
-            <marker date="1543324804427" expanded="true" signature="236:241" ph="..." />
+            <marker date="1543649491109" expanded="true" signature="250:251" ph="..." />
+            <marker date="1543649491109" expanded="true" signature="250:255" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/tosinogram.py" />
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/superesolution/util.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/filesystem/taskguard.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1543481694478" expanded="true" signature="466:471" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/sinogramSR.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="163" selection-start-line="163" selection-end-line="163" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#17#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/python/hotpot/filesystem/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        <state relative-caret-position="-389">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="19" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1543474996537" expanded="true" signature="424:500" ph="..." />
-            <marker date="1543474996537" expanded="true" signature="1145:1146" ph="..." />
-            <marker date="1543474996537" expanded="true" signature="1249:1250" ph="..." />
-            <marker date="1543474996537" expanded="true" signature="1974:1975" ph="..." />
+            <marker date="1543803175037" expanded="true" signature="461:537" ph="..." />
+            <marker date="1543803175037" expanded="true" signature="1182:1183" ph="..." />
+            <marker date="1543803175037" expanded="true" signature="1292:1293" ph="..." />
+            <marker date="1543803175037" expanded="true" signature="2029:2030" ph="..." />
           </folding>
         </state>
       </provider>

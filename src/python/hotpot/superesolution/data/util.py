@@ -6,10 +6,6 @@ import tables
 import math
 
 
-DEFAULT_FILE = '/home/qinglong/node3share/analytical_phantom_sinogram.h5'
-file = tables.open_file(DEFAULT_FILE)
-
-
 class DataGen:
     """
     A data generator for phantom and sinogram dataset.
@@ -139,25 +135,25 @@ def rescale_single(inputs, bin_size=255):
 def rescale_batch(images):
     return np.array([rescale_single(img) for img in images])
 
-
-class DataIte:
-    """
-    i = DataIte
-    """
-    def __init__(self):
-        ds = tf.data.Dataset.range(25,300)
-        ds = ds.shuffle(buffer_size=10)
-        ds = ds.batch(32) #batch_size=32
-
-        a_iterator = tf.data.Iterator.from_structure(tf.int64, tf.TensorShape([]))
-        prediction = a_iterator.get_next()
-
-        ds_iterator = a_iterator.make_initializer(ds)
-
-        with tf.Session() as sess:
-            sess.run(ds_iterator)
-            while True:
-                try:
-                    print(sess.run(prediction))
-                except tf.errors.OutOfRangeError:
-                    break
+#
+# class DataIte:
+#     """
+#     i = DataIte
+#     """
+#     def __init__(self):
+#         ds = tf.data.Dataset.range(25,300)
+#         ds = ds.shuffle(buffer_size=10)
+#         ds = ds.batch(32) #batch_size=32
+#
+#         a_iterator = tf.data.Iterator.from_structure(tf.int64, tf.TensorShape([]))
+#         prediction = a_iterator.get_next()
+#
+#         ds_iterator = a_iterator.make_initializer(ds)
+#
+#         with tf.Session() as sess:
+#             sess.run(ds_iterator)
+#             while True:
+#                 try:
+#                     print(sess.run(prediction))
+#                 except tf.errors.OutOfRangeError:
+#                     break

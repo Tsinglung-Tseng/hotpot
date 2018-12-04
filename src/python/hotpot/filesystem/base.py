@@ -5,13 +5,13 @@ from pathlib import Path
 from typing import Iterable, Dict, List
 
 
-def phantom_sub_dir(i):
+def phantom_sub_dir(i, type="derenzo"):
     WORKDIR = pathlib.Path('/mnt/gluster/qinglong/DLSimu')
-    return WORKDIR/f"derenzo_phantom_{i}"
+    return WORKDIR/f"{type}_phantom_{i}"
 
 
-def scale_sub_dir(i, j):
-    return phantom_sub_dir(i)/f"mac_sub{j}"
+def scale_sub_dir(i, j, type="derenzo"):
+    return phantom_sub_dir(i, type)/f"mac_sub{j}"
 
 
 def recon_depends(sub_id):
@@ -52,13 +52,13 @@ def get_done(dir_to_check: Iterable[Path]) -> Dict:
             "sinogram": sinogram}
 
 
-def get_all_workdirs(phantom_range: Iterable[int], sub_range: Iterable[int]) -> List:
+def get_all_workdirs(phantom_range: Iterable[int], sub_range: Iterable[int], type) -> List:
     all_dir = []
 
     for i in phantom_range:
         for j in sub_range:
-            if Path.is_dir(scale_sub_dir(i, j)):
-                all_dir.append(scale_sub_dir(i, j))
+            if Path.is_dir(scale_sub_dir(i, j, type)):
+                all_dir.append(scale_sub_dir(i, j, type))
 
     return all_dir
 

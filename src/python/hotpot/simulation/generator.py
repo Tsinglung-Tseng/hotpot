@@ -11,12 +11,13 @@ class KEYS:
 
 
 def range_material(gray_scale, work_dir):
+    np.trim_zeros(gray_scale)
     gray_scale = gray_scale.tolist()
     gray_scale.append(0)
     gray_scale.reverse()
     gray_scale = np.array(gray_scale, dtype=np.float32)
     rm_header = pd.DataFrame([str(len(gray_scale))])
-    rm_body = pd.DataFrame([gray_scale, gray_scale, ['Air', 'Air', 'Air']]).T
+    rm_body = pd.DataFrame([gray_scale, gray_scale, ['Air' for _ in range(len(gray_scale))]]).T
 
     with open(work_dir/KEYS.DEFAULT_MATERIAL_FILE, "w") as f:
         rm_header.to_csv(f, header=False, index=False, sep='\t', mode='a')
@@ -26,6 +27,7 @@ def range_material(gray_scale, work_dir):
 
 def activity_range(gray_scale, work_dir):
     gray_scale = gray_scale.tolist()
+    gray_scale = np.trim_zeros(gray_scale)
     gray_scale.append(0)
     gray_scale.reverse()
 
