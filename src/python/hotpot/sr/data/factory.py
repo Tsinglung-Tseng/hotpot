@@ -42,11 +42,11 @@ class DataIterFactory:
         data_gen = self._DataGen(data_gen=gen)
 
         data_set_train = (tf.data.Dataset
-                         .from_generator(generator=data_gen,
-                                         output_types=(tf.int64, tf.int64),  #TODO get data type out of here
-                                         output_shapes=(self.x_data_shape,
-                                                        self.y_data_shape))
-                         .repeat(self.num_epochs))
+                          .from_generator(generator=data_gen,
+                                          output_types=(tf.int64, tf.int64),  #TODO get data type out of here
+                                          output_shapes=(self.x_data_shape,
+                                                         self.y_data_shape))
+                          .repeat(self.num_epochs))
         iter_train = data_set_train.make_initializable_iterator()
         return iter_train
 
