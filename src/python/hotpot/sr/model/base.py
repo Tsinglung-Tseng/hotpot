@@ -5,12 +5,6 @@ import functools
 # import tables
 
 
-# gen_with_batch = functools.partial(gen, BATCH_SIZE)
-#
-# data_gen = gen_with_batch(x, y_true)
-# validate_data_gen = gen_with_batch(x_test, y_true_test)
-
-
 def new_weights(shape):
     return tf.Variable(tf.truncated_normal(shape, stddev=0.05))
 
@@ -39,13 +33,14 @@ def new_conv_layer(input, num_input_channels, filter_size, num_filters, use_pool
     return layer, weights
 
 
-def get_infer(x, i):
-    infer = (sess.run(layer_conv3,feed_dict={x_ph: x[(i//BATCH_SIZE)*BATCH_SIZE: (i//BATCH_SIZE+1)*BATCH_SIZE]}))[i%BATCH_SIZE,:,:,:]
+def get_infer(batch_size, x, i):
+    infer = (sess.run(layer_conv3,
+                      feed_dict={x_ph: x[(i//batch_size)*batch_size: (i//batch_size+1)*batch_size]}))[i%batch_size,:,:,:]
     infer = infer/np.max(infer)*255
     return infer.astype(np.int64)
 
 
-get_train_infer = functools.partial(get_infer, x)
+get_train_infer = functools.partial(get_infer, x_train)
 get_test_infer = functools.partial(get_infer, x_test)
 
 
@@ -55,8 +50,8 @@ def get_psnr(get_infer, x, y, i):
     return sess.run(psnr_infer), sess.run(psnr_interpolate)
 
 
-get_train_psnr = functools.partial(get_psnr, get_train_infer, x, y_true)
-get_test_psnr = functools.partial(get_psnr, get_test_infer, x_test, y_true_test)
+get_train_psnr = functools.partial(get_psnr, get_train_infer, x_train, y_train)
+get_test_psnr = functools.partial(get_psnr, get_test_infer, x_test, y_test)
 
 
 def aligned_show(_get_psnr, _get_infer, x, y, i):
@@ -78,8 +73,8 @@ def aligned_show(_get_psnr, _get_infer, x, y, i):
         ax.set_yticks([])
 
 
-aligned_show_train = functools.partial(aligned_show, get_train_psnr, get_train_infer, x, y_true)
-aligned_show_test = functools.partial(aligned_show, get_test_psnr, get_test_infer, x_test, y_true_test)
+aligned_show_train = functools.partial(aligned_show, get_train_psnr, get_train_infer, x_train, y_train)
+aligned_show_test = functools.partial(aligned_show, get_test_psnr, get_test_infer, x_test, y_test)
 
 
 def feeded_avg():

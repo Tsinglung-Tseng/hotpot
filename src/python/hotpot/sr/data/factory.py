@@ -99,9 +99,6 @@ class DataIterFactory:
 #         return tf.reshape(self.next_batch[3], [1600, 320, 320, 1])
 #
 #
-
-#
-#
 # def show():
 #     pass
 #

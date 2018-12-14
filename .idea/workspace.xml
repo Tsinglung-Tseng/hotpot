@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e44ee00-586d-487d-ba5a-a6183e6b2e2d" name="Default Changelist" comment="new feature (sr/data/factory): add data iterator factory.">
-      <change afterPath="$PROJECT_DIR$/src/python/hotpot/sr/data/lambda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/hotpot/sr/optimizer/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/hotpot/sr/optimizer/factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/hotpot/sr/validator/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/hotpot/sr/validator/factory.py" afterDir="false" />
+    <list default="true" id="8e44ee00-586d-487d-ba5a-a6183e6b2e2d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/python/hotpot/sr/data/factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/sr/data/factory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/sr/naturalSR/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/sr/config/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/sr/naturalSR/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/sr/model/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/sr/superResolutionBlk.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/sr/model/superResolutionBlk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/sr/train/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/sr/model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/sr/train/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/sr/config/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/sr/train/x2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/sr/model/x2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/hotpot/sr/data/lambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/sr/data/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/hotpot/sr/model/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/sr/model/base.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,11 +47,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="44" />
+          <entry key="dummy" value="56" />
           <entry key="gitignore" value="3" />
           <entry key="initializer" value="278" />
-          <entry key="py" value="5209" />
-          <entry key="txt" value="278" />
+          <entry key="py" value="5299" />
+          <entry key="txt" value="347" />
           <entry key="usingGPU" value="8" />
           <entry key="util" value="50" />
           <entry key="x2" value="8" />
@@ -68,8 +59,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="325" />
-          <entry key="Python" value="5553" />
+          <entry key="PLAIN_TEXT" value="406" />
+          <entry key="Python" value="5643" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -104,11 +95,11 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/model/base.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-746">
-                  <caret line="48" column="53" lean-forward="true" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
+                <state relative-caret-position="-17">
+                  <caret line="42" column="54" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
                   <folding>
                     <element signature="e#0#31#0" expanded="true" />
-                    <marker date="1544714267797" expanded="true" signature="107:108" ph="..." />
+                    <marker date="1544779223852" expanded="true" signature="107:108" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -121,7 +112,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/data/factory.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="436">
+                <state relative-caret-position="534">
                   <caret line="101" selection-start-line="101" selection-end-line="101" />
                   <folding>
                     <element signature="e#112#135#0" expanded="true" />
@@ -131,19 +122,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/data/lambda.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1020">
-                  <caret line="68" column="73" selection-start-line="68" selection-start-column="73" selection-end-line="68" selection-end-column="73" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/validator/factory.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="165">
-                  <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+                  <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -215,8 +197,9 @@
         <option value="$PROJECT_DIR$/src/python/hotpot/sr/naturalSR/base.py" />
         <option value="$PROJECT_DIR$/src/python/hotpot/sr/optimizer/factory.py" />
         <option value="$PROJECT_DIR$/src/python/hotpot/sr/validator/factory.py" />
-        <option value="$PROJECT_DIR$/src/python/hotpot/sr/data/factory.py" />
         <option value="$PROJECT_DIR$/src/python/hotpot/sr/data/lambda.py" />
+        <option value="$PROJECT_DIR$/src/python/hotpot/sr/data/factory.py" />
+        <option value="$PROJECT_DIR$/src/python/hotpot/sr/model/base.py" />
       </list>
     </option>
   </component>
@@ -539,12 +522,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544713541973</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="refactor (sr/data/lambda): move data processing procedure to lambda">
+      <created>1544773698166</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1544773698166</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="23" width="2466" height="1018" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994463" visible="true" weight="0.17037953" />
       <window_info id="Structure" order="1" sideWeight="0.5005537" side_tool="true" weight="0.22085387" />
@@ -617,7 +606,8 @@
     <MESSAGE value="refactor to sinogram and sinogram scale" />
     <MESSAGE value="check point" />
     <MESSAGE value="new feature (sr/data/factory): add data iterator factory." />
-    <option name="LAST_COMMIT_MESSAGE" value="new feature (sr/data/factory): add data iterator factory." />
+    <MESSAGE value="refactor (sr/data/lambda): move data processing procedure to lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor (sr/data/lambda): move data processing procedure to lambda" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/python/__init__.py" />
@@ -816,30 +806,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/model/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-746">
-          <caret line="48" column="53" lean-forward="true" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <marker date="1544714267797" expanded="true" signature="107:108" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/optimizer/factory.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/validator/factory.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/data/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/data/factory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
+        <state relative-caret-position="534">
           <caret line="101" selection-start-line="101" selection-end-line="101" />
           <folding>
             <element signature="e#112#135#0" expanded="true" />
@@ -847,10 +826,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/data/lambda.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/validator/factory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="73" selection-start-line="68" selection-start-column="73" selection-end-line="68" selection-end-column="73" />
+        <state relative-caret-position="165">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/model/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="42" column="54" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1544779223852" expanded="true" signature="107:108" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

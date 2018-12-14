@@ -1,3 +1,6 @@
+import tensorflow as tf
+
+
 class DownSampler:
     """
     d = DownSampler(input, down_sample_ratios, batch_size)
