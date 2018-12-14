@@ -1,93 +1,14 @@
-import tensorflow as tf
-import tables
 import matplotlib.pyplot as plt
-from dxl.learn.model.cnns import Conv2D
-import itertools
-import functools
+import tensorflow as tf
 import numpy as np
+import functools
+# import tables
 
 
-BATCH_SIZE = 32
-F = tables.open_file("/home/qinglong/flickr256Data/25k22000train")
-
-x = F.root.train['bicubic']
-y_true = F.root.train['img']
-
-x_test = F.root.test['bicubic']
-y_true_test = F.root.test['img']
-
-
-x_ph = tf.placeholder(dtype=tf.float32, shape=[BATCH_SIZE,256,256,3])
-y_true_ph = tf.placeholder(dtype=tf.float32, shape=[BATCH_SIZE,256,256,3])
-
-
-class DataIterFactory:
-    class _DataGen(object):
-        def __init__(self, data_gen):
-            self.data_gen = data_gen
-
-        def __call__(self):
-            return next(self.data_gen)
-
-    def _gen(self):
-        for i in itertools.count(self.batch_size, self.batch_size):
-            try:
-                if self.x_data[i - self.batch_size:i].shape[0] == self.batch_size:
-                    yield (self.x_data[i - self.batch_size:i], self.y_data[i - self.batch_size:i])
-                else:
-                    break
-            except IndexError:
-                print("Run out of data...")
-
-    def __init__(self, x_data, y_data, batch_size, num_epochs=1):
-        self.x_data = x_data
-        self.y_data = y_data
-        self.batch_size = batch_size
-        self.num_epochs = num_epochs
-
-    @property
-    def x_data_shape(self):
-        return [self.batch_size, self.x_data.shape[0], self.x_data.shape[1], self.x_data.shape[2]]
-
-    @property
-    def y_data_shape(self):
-        return [self.batch_size, self.y_data.shape[0], self.y_data.shape[1], self.y_data.shape[2]]
-
-    def __call__(self):
-        gen = self._gen()
-        data_gen = self._DataGen(data_gen=gen)
-
-        data_set_train = (tf.data.Dataset
-                         .from_generator(generator=data_gen,
-                                         output_types=(tf.int64, tf.int64),  #TODO get data type out of here
-                                         output_shapes=(self.x_data_shape,
-                                                        self.y_data_shape))
-                         .repeat(self.num_epochs))
-        iter_train = data_set_train.make_initializable_iterator()
-        return iter_train
-
-
-
-        # def gen(batch_size, x, y_true):
-#     for i in itertools.count(batch_size, batch_size):
-#         #         print(f"Mini-batch {i} under going")
-#         try:
-#             if x[i - batch_size:i].shape[0] == BATCH_SIZE:
-#                 yield (x[i - batch_size:i], y_true[i - batch_size:i])
-#             else:
-#                 break
-#         except IndexError:
-#             print("Run out of data...")
-
-
-
-
-
-
-gen_with_batch = functools.partial(gen, BATCH_SIZE)
-
-data_gen = gen_with_batch(x, y_true)
-validate_data_gen = gen_with_batch(x_test, y_true_test)
+# gen_with_batch = functools.partial(gen, BATCH_SIZE)
+#
+# data_gen = gen_with_batch(x, y_true)
+# validate_data_gen = gen_with_batch(x_test, y_true_test)
 
 
 def new_weights(shape):
@@ -98,14 +19,8 @@ def new_biases(length):
     return tf.Variable(tf.constant(0.05, shape=[length]))
 
 
-def new_conv_layer(input,  # The previous layer.
-                   num_input_channels,  # Num. channels in prev. layer.
-                   filter_size,  # Width and height of each filter.
-                   num_filters,  # Number of filters.
-                   use_pooling=False):  # Use 2x2 max-pooling.
-
+def new_conv_layer(input, num_input_channels, filter_size, num_filters, use_pooling=False):
     shape = [filter_size, filter_size, num_input_channels, num_filters]
-
     weights = new_weights(shape=shape)
     biases = new_biases(length=num_filters)
 
@@ -113,7 +28,6 @@ def new_conv_layer(input,  # The previous layer.
                          filter=weights,
                          strides=[1, 1, 1, 1],
                          padding='SAME')
-
     layer += biases
 
     if use_pooling:
@@ -121,9 +35,7 @@ def new_conv_layer(input,  # The previous layer.
                                ksize=[1, 2, 2, 1],
                                strides=[1, 2, 2, 1],
                                padding='SAME')
-
     layer = tf.nn.relu(layer)
-
     return layer, weights
 
 
@@ -217,3 +129,19 @@ def validation(num_batches):
         feed_dict_train = {x_ph: test_input, y_true_ph: test_label, y_true_test_ph: test_label}
         psnr_buffer.append(sess.run(infer_psnr, feed_dict=feed_dict_train))
     return psnr_buffer
+
+
+# if __name__=="__main__":
+#     BATCH_SIZE = 32
+#     DEFAULT_DATA_FILE = "/home/qinglong/flickr256Data/25k22000train"
+#
+#     F = tables.open_file(DEFAULT_DATA_FILE)
+#
+#     x_train = F.root.config['bicubic']
+#     y_train = F.root.config['img']
+#
+#     x_test = F.root.test['bicubic']
+#     y_test = F.root.test['img']
+#
+#     train_iter = DataIterFactory(x_data=x_train, y_data=y_train, batch_size=32, num_epochs=1)
+#     test_iter = DataIterFactory(x_data=x_test, y_data=y_test, batch_size=32, num_epochs=1)
