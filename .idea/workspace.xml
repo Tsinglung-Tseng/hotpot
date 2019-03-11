@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e44ee00-586d-487d-ba5a-a6183e6b2e2d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/hotpot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hotpot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/hotpot/routine/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/hotpot/routine/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/sr/data/primitive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/hotpot/routine/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/hotpot/routine/initializer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/hotpot/routine/subprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/hotpot/simulation/generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/simulation/generator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/python/hotpot/sr/data/factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/sr/data/factory.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -14,18 +22,20 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/hotpot$initializer.coverage" NAME="initializer Coverage Results" MODIFIED="1541863323503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/hotpot/routine" />
+    <SUITE FILE_PATH="coverage/hotpot$try.coverage" NAME="try Coverage Results" MODIFIED="1545966099433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-896808618">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
-          <entry key="project.open.time.0" value="5" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.0" value="7" />
+          <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -33,7 +43,7 @@
           <entry key="PKG-INFO" value="1" />
           <entry key="gitignore" value="2" />
           <entry key="http" value="1" />
-          <entry key="py" value="89" />
+          <entry key="py" value="122" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
@@ -41,7 +51,7 @@
         <counts>
           <entry key="HTTP Request" value="1" />
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="89" />
+          <entry key="Python" value="122" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -49,8 +59,9 @@
           <entry key="dummy" value="66" />
           <entry key="gitignore" value="3" />
           <entry key="initializer" value="278" />
-          <entry key="py" value="5663" />
-          <entry key="txt" value="420" />
+          <entry key="py" value="6184" />
+          <entry key="try" value="4" />
+          <entry key="txt" value="490" />
           <entry key="usingGPU" value="8" />
           <entry key="util" value="50" />
           <entry key="x2" value="8" />
@@ -58,8 +69,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="489" />
-          <entry key="Python" value="6007" />
+          <entry key="PLAIN_TEXT" value="559" />
+          <entry key="Python" value="6532" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -67,91 +78,22 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/python/hotpot/filesystem/taskguard.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="7" selection-start-line="7" selection-end-line="7" />
-                  <folding>
-                    <element signature="e#0#17#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/config/config.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/model/utils.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-                  <folding>
-                    <element signature="e#0#31#0" expanded="true" />
-                    <marker date="1544780244387" expanded="true" signature="107:108" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/data/factory.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="697">
-                  <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
-                  <folding>
-                    <element signature="e#112#135#0" expanded="true" />
-                    <marker date="1545012867110" expanded="true" signature="1860:1869" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/validator/factory.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/optimizer/factory.py">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/model/base.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="525">
-                  <caret line="38" selection-start-line="38" selection-end-line="38" />
-                  <folding>
-                    <element signature="e#0#31#0" expanded="true" />
-                    <marker date="1544780423760" expanded="true" signature="994:999" ph="..." />
-                    <marker date="1544780423760" expanded="true" signature="1091:1110" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/data/factory.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-36">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/data/primitive.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -168,6 +110,7 @@
       <find>concat</find>
       <find>data_gen</find>
       <find>placeholder</find>
+      <find>sum</find>
     </findStrings>
     <replaceStrings>
       <replace>data</replace>
@@ -199,8 +142,6 @@
         <option value="$PROJECT_DIR$/src/python/hotpot/simulation/tosinogram.py" />
         <option value="$PROJECT_DIR$/src/python/hotpot/superesolution/config.py" />
         <option value="$PROJECT_DIR$/src/python/hotpot/superesolution/util.py" />
-        <option value="$PROJECT_DIR$/src/python/hotpot/simulation/generator.py" />
-        <option value="$PROJECT_DIR$/src/python/hotpot/filesystem/base.py" />
         <option value="$PROJECT_DIR$/src/python/hotpot/simulation/system/systemMatrix.py" />
         <option value="$PROJECT_DIR$/src/python/hotpot/simulation/system/recon.py" />
         <option value="$PROJECT_DIR$/src/python/hotpot/superesolution/train/config.py" />
@@ -216,6 +157,11 @@
         <option value="$PROJECT_DIR$/src/python/hotpot/sr/model/utils.py" />
         <option value="$PROJECT_DIR$/src/python/hotpot/sr/model/base.py" />
         <option value="$PROJECT_DIR$/src/python/hotpot/sr/data/factory.py" />
+        <option value="$PROJECT_DIR$/try.py" />
+        <option value="$PROJECT_DIR$/src/python/hotpot/filesystem/base.py" />
+        <option value="$PROJECT_DIR$/src/python/hotpot/simulation/generator.py" />
+        <option value="$PROJECT_DIR$/src/python/hotpot/sr/model/superResolutionBlk.py" />
+        <option value="$PROJECT_DIR$/src/python/hotpot/sr/data/primitives.py" />
       </list>
     </option>
   </component>
@@ -225,10 +171,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="71" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="294" />
     <option name="y" value="23" />
-    <option name="width" value="2466" />
+    <option name="width" value="2239" />
     <option name="height" value="1018" />
   </component>
   <component name="ProjectView">
@@ -236,7 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,6 +206,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
               <item name="hotpot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotpot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotpot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="hotpot" type="462c0819:PsiDirectoryNode" />
+              <item name="simulation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hotpot" type="b2602c69:ProjectViewProjectNode" />
@@ -319,9 +272,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="range_material&#9;null&#9;null&#10;load&#9;null&#9;null&#10;phantom&#9;null&#9;null&#10;load_simu_depends&#9;null&#9;null&#10;phantom_D&#9;null&#9;null&#10;scale_sub_dir&#9;null&#9;null&#10;scale_sub_dirsimv&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -347,7 +302,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.usingGPU">
+  <component name="RunManager" selected="Python.try">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="hotpot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -386,6 +341,28 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python/hotpot/routine/initializer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="try" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="hotpot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/try.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -463,9 +440,11 @@
       <item itemvalue="Python.util" />
       <item itemvalue="Python.x2" />
       <item itemvalue="Python.usingGPU" />
+      <item itemvalue="Python.try" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.try" />
         <item itemvalue="Python.usingGPU" />
         <item itemvalue="Python.x2" />
         <item itemvalue="Python.util" />
@@ -568,30 +547,47 @@
       <option name="project" value="LOCAL" />
       <updated>1544793874264</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="cannot solve problem on iterator factory, back to DataGen">
+      <created>1545012900603</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1545012900603</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="71" y="23" width="2466" height="1018" extended-state="0" />
+    <frame x="0" y="23" width="2560" height="1020" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994463" visible="true" weight="0.17161717" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994463" visible="true" weight="0.17593329" />
       <window_info id="Structure" order="1" sideWeight="0.5005537" side_tool="true" weight="0.22085387" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32890365" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50035185" side_tool="true" weight="0.32890365" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32890365" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32964602" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32890365" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.49964812" weight="0.32890365" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.32890365" />
+      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.49964812" weight="0.3281768" />
       <window_info anchor="bottom" id="REST Client" order="13" weight="0.33444077" />
+      <window_info anchor="right" id="Google Cloud Storage" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Remote Host" order="1" />
       <window_info anchor="right" id="R Packages" order="2" weight="0.3291874" />
@@ -649,7 +645,8 @@
     <MESSAGE value="refactor (sr/data/lambda): move data processing procedure to lambda" />
     <MESSAGE value="check point, will make model factory class" />
     <MESSAGE value="check point, will fix data factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="check point, will fix data factory" />
+    <MESSAGE value="cannot solve problem on iterator factory, back to DataGen" />
+    <option name="LAST_COMMIT_MESSAGE" value="cannot solve problem on iterator factory, back to DataGen" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/python/__init__.py" />
@@ -667,20 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="55" selection-start-column="55" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/routine/initializer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="54" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/routine/subprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -710,70 +693,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/tosinogram.py" />
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/bin2listmode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/taskLauncher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-719">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/system/systemMatrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/system/recon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/phantom/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/routine/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="49" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/python/hotpot/superesolution/config.py" />
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/filesystem/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="82" column="45" selection-start-line="82" selection-start-column="45" selection-end-line="82" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/sinogramSR.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="135" selection-start-line="135" selection-end-line="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/remote_sources/1818747935/2095013526/hotpot/superesolution/data/util.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
@@ -782,24 +702,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/python/hotpot/superesolution/train/usingGPU.py" />
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/phantom/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/model/x2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1501">
           <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/model/superResolutionBlk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-526">
-          <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -810,13 +716,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/filesystem/taskguard.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/model/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="316">
+          <caret line="40" column="36" lean-forward="true" selection-start-line="38" selection-end-line="40" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -827,24 +730,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/model/utils.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/optimizer/factory.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/model/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        <state relative-caret-position="570">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/try.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/lib/hotpot/simulation/taskLauncher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-786">
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <marker date="1544780244387" expanded="true" signature="107:108" ph="..." />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/data/factory.py">
+    <entry file="file://$PROJECT_DIR$/build/lib/hotpot/simulation/sinogramSR.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+        <state relative-caret-position="-1356">
           <folding>
-            <element signature="e#112#135#0" expanded="true" />
-            <marker date="1545012867110" expanded="true" signature="1860:1869" ph="..." />
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/lib/hotpot/simulation/bin2listmode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -856,20 +781,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/optimizer/factory.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/model/base.py">
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1265409029/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="-60991">
+          <caret line="528" column="7" selection-start-line="528" selection-start-column="4" selection-end-line="528" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/model/superResolutionBlk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <marker date="1544780423760" expanded="true" signature="994:999" ph="..." />
-            <marker date="1544780423760" expanded="true" signature="1091:1110" ph="..." />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/filesystem/taskguard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/filesystem/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/routine/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/routine/initializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/routine/subprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/phantom/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/sinogramSR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/taskLauncher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/phantom/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/system/recon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/system/systemMatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/bin2listmode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/data/factory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/data/primitive.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

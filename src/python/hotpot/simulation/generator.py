@@ -23,6 +23,7 @@ def range_material(gray_scale, work_dir):
         rm_header.to_csv(f, header=False, index=False, sep='\t', mode='a')
         rm_body.to_csv(f, header=False, index=False, sep='\t', mode='a')
         print(f"Default material file wirten in {str(work_dir/KEYS.DEFAULT_MATERIAL_FILE)}")
+    return work_dir/KEYS.DEFAULT_MATERIAL_FILE
 
 
 def activity_range(gray_scale, work_dir):
@@ -46,6 +47,7 @@ def activity_range(gray_scale, work_dir):
     with open(work_dir/KEYS.DEFAULT_ACTIVITY_FILE, 'w') as f:
         range_a.to_csv(f, header=False, index=False, sep='\t', mode='a')
         print(f"Default activity file wirten in {str(work_dir/KEYS.DEFAULT_ACTIVITY_FILE)}")
+    return work_dir/KEYS.DEFAULT_ACTIVITY_FILE
 
 
 def phantom_D(phantom, num_layers, work_dir):
@@ -55,3 +57,4 @@ def phantom_D(phantom, num_layers, work_dir):
     for i in range(num_layers):
         canvas[i] = phantom
     canvas.tofile(str(work_dir/"phantomD.bin"))
+    return work_dir/"phantomD.bin"

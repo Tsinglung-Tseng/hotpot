@@ -2,6 +2,8 @@
 import tensorflow as tf
 # import numpy as np
 import itertools
+# import tables
+from typing import Iterable
 # import math
 
 
@@ -68,52 +70,62 @@ import itertools
     #     # return iter_train
 
 
-class DataGen:
-    """
-    A data generator for phantom and sinogram dataset.
-    g = DataGen(file)
-
-    with tf.Session() as sess:
-        sess.run(g.next_batch)
-    """
-    def __init__(self, _file, batch_size=32):
-        self._file = _file
-        self.batch_size = batch_size
-        self.next_batch = (
-            tf.data.Dataset
-            .from_generator(self._gen,
-                            (tf.float32, tf.int8, tf.float32, tf.float32),
-                            (tf.TensorShape([256, 256]),
-                             tf.TensorShape([]),
-                             tf.TensorShape([1600, 320, 320]),
-                             tf.TensorShape([1600, 320, 320])))
-            # .shuffle(buffer_size=1)
-            # .batch(batch_size)
-            .make_one_shot_iterator()
-            .get_next()
-        )
-
-    def _gen(self):
-        for i in itertools.count(0):
-            try:
-                yield (self._file.root.phantom[i][0],
-                       self._file.root.phantom[i][1],
-                       self._file.root.phantom[i][2],
-                       self._file.root.phantom[i][3])
-            except IndexError:
-                break
-
-    @property
-    def phantom(self):
-        return tf.reshape(self.next_batch[0], [1600, 256, 256, 1])
-
-    @property
-    def sinogram_x1(self):
-        return tf.reshape(self.next_batch[2], [1600, 320, 320, 1])
-
-    @property
-    def sinogram_x2(self):
-        return tf.reshape(self.next_batch[3], [1600, 320, 320, 1])
+# class DataGen:
+#     """
+#     A data generator for phantom and sinogram dataset.
+#     g = DataGen(file)
+#
+#     with tf.Session() as sess:
+#         sess.run(g.next_batch)
+#     """
+#     def __init__(self, source:Iterable[tables.array.Array], batch_size=32, buffer_size=1):
+#         self.source = source
+#         self.batch_size = batch_size
+#         self.next_batch = (
+#             tf.data.Dataset
+#             .from_generator(self._gen,
+#                             (tf.int64, tf.int64),
+#                             (tf.TensorShape(self.output_shape),
+#                              tf.TensorShape(self.output_shape))
+#                             .shuffle(buffer_size=buffer_size)
+#                             .batch(batch_size)
+#                             .make_one_shot_iterator()
+#                             .get_next()
+#
+#     def _gen(self):
+#         for i in itertools.count(0):
+#             try:
+#                 tmp = []
+#                 for s in self.source[i]:
+#                     tmp.append(s)
+#                 yield tmp
+#
+#
+#                 #
+#                 #
+#                 # yield (self._file.root.phantom[i][0],
+#                 #        self._file.root.phantom[i][1],
+#                 #        self._file.root.phantom[i][2],
+#                 #        self._file.root.phantom[i][3])
+#             except IndexError:
+#                 break
+#
+#     @property
+#     def source_shape(self):
+#         return self.source[0].shape[1:]
+#
+#     @property
+#     def output_shape(self):
+#         tmp = list(self.source_shape)
+#         return tmp.insert(0, self.batch_size)
+#
+#     @property
+#     def x(self):
+#         return tf.reshape(self.next_batch[0], self.output_shape)
+#
+#     @property
+#     def y(self):
+#         return tf.reshape(self.next_batch[1], self.output_shape)
 
 
 # def show():
