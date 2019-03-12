@@ -1,4 +1,0 @@
-jfs
-pathlib
-dxl-pygate
-typing
