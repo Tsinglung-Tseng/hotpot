@@ -2,54 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e44ee00-586d-487d-ba5a-a6183e6b2e2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/python/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/config/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/images/base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotpot.egg-info/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotpot.egg-info/SOURCES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotpot.egg-info/dependency_links.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotpot.egg-info/requires.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotpot.egg-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot.egg-info/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot.egg-info/SOURCES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot.egg-info/dependency_links.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot.egg-info/namespace_packages.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot.egg-info/requires.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot.egg-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/filesystem/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/filesystem/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/filesystem/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/filesystem/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/filesystem/taskguard.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/filesystem/taskguard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/phantom/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/images/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/phantom/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/phantom/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/phantom/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/phantom/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/simulation/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/phantom/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/simulation/bin2listmode.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/simulation/bin2listmode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/simulation/generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/simulation/generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/simulation/sinogramSR.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/simulation/sinogramSR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/simulation/system/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/simulation/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/simulation/system/recon.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/simulation/system/recon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/simulation/system/systemMatrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/simulation/system/systemMatrix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/simulation/taskLauncher.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/simulation/taskLauncher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/sr/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/simulation/system/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/sr/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/sr/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/sr/config/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/sr/data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/sr/data/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/sr/data/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/sr/data/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/sr/data/factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/sr/data/factory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/sr/data/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/sr/data/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/sr/model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/sr/model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/sr/model/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/sr/model/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/sr/model/superResolutionBlk.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/sr/model/superResolutionBlk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/sr/model/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/sr/model/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/sr/model/x2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/sr/model/x2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/sr/optimizer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/sr/optimizer/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/sr/optimizer/factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/sr/optimizer/factory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/sr/validator/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/sr/validator/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/hotpot/sr/validator/factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/sr/validator/factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/config/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/config/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/filesystem/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/filesystem/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/filesystem/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/filesystem/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/filesystem/taskguard.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/filesystem/taskguard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/images/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/images/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/images/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/images/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/phantom/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/phantom/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/phantom/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/phantom/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/phantom/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/phantom/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/simulation/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/simulation/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/simulation/bin2listmode.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/simulation/bin2listmode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/simulation/generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/simulation/generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/simulation/sinogramSR.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/simulation/sinogramSR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/simulation/system/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/simulation/system/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/simulation/system/recon.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/simulation/system/recon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/simulation/system/systemMatrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/simulation/system/systemMatrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/simulation/taskLauncher.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/simulation/taskLauncher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/sr/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/sr/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/sr/data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/sr/data/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/sr/data/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/sr/data/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/sr/data/factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/sr/data/factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/sr/data/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/sr/data/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/sr/model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/sr/model/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/sr/model/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/sr/model/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/sr/model/superResolutionBlk.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/sr/model/superResolutionBlk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/sr/model/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/sr/model/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/sr/model/x2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/sr/model/x2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/sr/optimizer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/sr/optimizer/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/sr/optimizer/factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/sr/optimizer/factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/sr/validator/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/sr/validator/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/sr/validator/factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/hotpot/sr/validator/factory.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,7 +90,7 @@
           <entry key="md" value="25" />
           <entry key="py" value="6500" />
           <entry key="try" value="4" />
-          <entry key="txt" value="491" />
+          <entry key="txt" value="521" />
           <entry key="usingGPU" value="8" />
           <entry key="util" value="50" />
           <entry key="x2" value="8" />
@@ -114,7 +100,7 @@
         <counts>
           <entry key="Git file" value="1" />
           <entry key="Markdown" value="25" />
-          <entry key="PLAIN_TEXT" value="564" />
+          <entry key="PLAIN_TEXT" value="594" />
           <entry key="Python" value="6848" />
         </counts>
       </usages-collector>
@@ -134,7 +120,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/python/config/config.py">
+        <entry file="file://$PROJECT_DIR$/src/python/hotpot/config/config.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="50" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="50" />
@@ -146,7 +132,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/python/images/base.py">
+        <entry file="file://$PROJECT_DIR$/src/python/hotpot/images/base.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
@@ -155,7 +141,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/python/config/__init__.py">
+        <entry file="file://$PROJECT_DIR$/src/python/hotpot/config/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="26" selection-start-column="26" selection-end-column="26" />
@@ -164,7 +150,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/python/sr/data/base.py">
+        <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/data/base.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" selection-start-line="8" selection-end-line="8" />
@@ -173,7 +159,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/python/sr/data/factory.py">
+        <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/data/factory.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1695">
               <caret line="113" column="29" selection-start-line="113" selection-start-column="29" selection-end-line="113" selection-end-column="29" />
@@ -185,7 +171,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/python/sr/data/utils.py">
+        <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/data/utils.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="23" selection-start-column="23" selection-end-column="23" />
@@ -194,7 +180,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/python/sr/validator/factory.py">
+        <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/validator/factory.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
@@ -321,6 +307,14 @@
               <item name="hotpot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="hotpot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotpot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotpot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="hotpot" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -328,6 +322,7 @@
               <item name="hotpot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="hotpot" type="462c0819:PsiDirectoryNode" />
               <item name="filesystem" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -335,6 +330,7 @@
               <item name="hotpot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="hotpot" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -342,6 +338,7 @@
               <item name="hotpot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="hotpot" type="462c0819:PsiDirectoryNode" />
               <item name="phantom" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -349,6 +346,7 @@
               <item name="hotpot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="hotpot" type="462c0819:PsiDirectoryNode" />
               <item name="simulation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -356,6 +354,7 @@
               <item name="hotpot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="hotpot" type="462c0819:PsiDirectoryNode" />
               <item name="simulation" type="462c0819:PsiDirectoryNode" />
               <item name="system" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -364,39 +363,8 @@
               <item name="hotpot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="sr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hotpot" type="b2602c69:ProjectViewProjectNode" />
               <item name="hotpot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
               <item name="sr" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hotpot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hotpot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="sr" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hotpot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hotpot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="sr" type="462c0819:PsiDirectoryNode" />
-              <item name="optimizer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hotpot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hotpot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="sr" type="462c0819:PsiDirectoryNode" />
-              <item name="validator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -415,11 +383,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/python/hotpot" />
       <recent name="$PROJECT_DIR$/src/python" />
       <recent name="$PROJECT_DIR$/src/python/hotpot/config" />
       <recent name="$PROJECT_DIR$/src/python/hotpot/sr/model" />
       <recent name="$PROJECT_DIR$/src/python/hotpot/superesolution/data" />
-      <recent name="$PROJECT_DIR$/src/python/hotpot/simulation" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -693,7 +661,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552309483209</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="structure refactor">
+      <created>1552372268907</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1552372268907</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -755,7 +730,8 @@
     <MESSAGE value="check point, will make model factory class" />
     <MESSAGE value="check point, will fix data factory" />
     <MESSAGE value="cannot solve problem on iterator factory, back to DataGen" />
-    <option name="LAST_COMMIT_MESSAGE" value="cannot solve problem on iterator factory, back to DataGen" />
+    <MESSAGE value="structure refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="structure refactor" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/python/__init__.py" />
@@ -797,21 +773,21 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/python/hotpot/superesolution/train/usingGPU.py" />
-    <entry file="file://$PROJECT_DIR$/src/python/sr/model/x2.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/model/x2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1501">
           <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/sr/model/utils.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/model/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
           <caret line="40" column="36" lean-forward="true" selection-start-line="38" selection-end-line="40" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/sr/optimizer/factory.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/optimizer/factory.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/try.py">
@@ -828,14 +804,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/filesystem/taskguard.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/filesystem/taskguard.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/filesystem/base.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/filesystem/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="35" column="25" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="25" />
@@ -866,14 +842,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/phantom/base.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/phantom/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/simulation/generator.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/generator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
@@ -883,42 +859,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/simulation/sinogramSR.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/sinogramSR.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="135" selection-start-line="135" selection-end-line="135" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/simulation/taskLauncher.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/taskLauncher.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/phantom/config.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/phantom/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/simulation/system/recon.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/system/recon.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/simulation/system/systemMatrix.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/system/systemMatrix.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/sr/model/superResolutionBlk.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/model/superResolutionBlk.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1800">
           <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
@@ -928,7 +904,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/sr/model/base.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/model/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
@@ -991,7 +967,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/simulation/bin2listmode.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/simulation/bin2listmode.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
@@ -1001,7 +977,7 @@
     <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/config/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/sr/data/factory.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/data/factory.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1695">
           <caret line="113" column="29" selection-start-line="113" selection-start-column="29" selection-end-line="113" selection-end-column="29" />
@@ -1011,48 +987,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/sr/validator/factory.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/validator/factory.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/sr/data/utils.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/data/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="23" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/sr/data/base.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/sr/data/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/config/__init__.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/config/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="26" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/config/config.py">
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/images/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/hotpot/config/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="50" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="50" />
           <folding>
             <marker date="1552369016815" expanded="true" signature="13:18" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/images/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
